@@ -101,4 +101,102 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-   
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.masthead {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sidebar {
+  width: 220px !important;
+  opacity: 1;
+}
+
+.author__avatar img {
+  max-width: 160px;
+  border-radius: 4px;
+}
+
+.author__name {
+  font-size: 1.1rem;
+  margin-top: 0.6rem;
+}
+
+.author__bio,
+.author__urls {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.page {
+  width: calc(100% - 250px) !important;
+  max-width: 980px !important;
+  padding-right: 2rem;
+}
+
+.page__title {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.page__content p,
+.page__content li {
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+.page__content h2 {
+  font-size: 1.35rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.page__content h3 {
+  font-size: 1.08rem;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.news-box {
+  max-height: 260px;
+  overflow-y: auto;
+  padding: 0.2rem 0.4rem 0.2rem 0;
+}
+
+.news-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.news-box li {
+  margin-bottom: 0.7rem;
+}
+
+.highlight-item {
+  margin-bottom: 2rem;
+}
+
+.highlight-item img {
+  display: block;
+  max-width: 100%;
+  width: 520px;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
+}
+
+.highlight-item h3 {
+  margin-bottom: 0.35rem;
+}
+
+.highlight-item p {
+  margin: 0.2rem 0;
+}
