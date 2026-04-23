@@ -352,7 +352,7 @@ author_profile: true
       Journal of Automation and Intelligence
     </div>
     <div class="pub-links">
-      <a class="pub-btn paper" href="https://www.sciencedirect.com/science/article/pii/S2949855424000285">Paper</a>
+      <a class="pub-btn paper" href=https://www.sciencedirect.com/science/article/pii/S2949855424000285>Paper</a>
       <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-FDTI/">Code</a>
     </div>
   </div>
