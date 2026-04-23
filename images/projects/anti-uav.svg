@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">Anti-UAV project visual</title>
+  <desc id="desc">Stylized drone icon with sensing waves on a purple gradient background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#291f61"/>
+      <stop offset="52%" stop-color="#5640a0"/>
+      <stop offset="100%" stop-color="#d48ef3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" rx="36" fill="url(#bg)"/>
+  <g opacity="0.18" fill="none" stroke="#ffffff" stroke-width="4">
+    <circle cx="400" cy="216" r="62"/>
+    <circle cx="400" cy="216" r="96"/>
+    <circle cx="400" cy="216" r="132"/>
+  </g>
+  <g transform="translate(250 126)" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M54 44 L138 76 L246 76 L330 44"/>
+    <path d="M98 122 L160 100 L240 100 L302 122"/>
+    <path d="M170 76 L160 144 L240 144 L230 76"/>
+    <path d="M76 36 L40 0"/>
+    <path d="M308 36 L344 0"/>
+    <path d="M74 132 L28 168"/>
+    <path d="M310 132 L356 168"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="288" cy="118" r="16"/>
+    <circle cx="512" cy="118" r="16"/>
+    <circle cx="278" cy="284" r="16"/>
+    <circle cx="522" cy="284" r="16"/>
+  </g>
+  <g opacity="0.22" fill="#ffffff">
+    <rect x="98" y="88" width="120" height="88" rx="24"/>
+    <rect x="584" y="232" width="118" height="84" rx="24"/>
+  </g>
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="78" font-size="20" font-weight="700" opacity="0.84">MULTIMODAL DRONE PERCEPTION</text>
+    <text x="54" y="360" font-size="56" font-weight="700">Anti-UAV Suite</text>
+    <text x="54" y="402" font-size="24" opacity="0.88">dataset construction, sensing fusion, and threat identification</text>
+  </g>
+</svg>

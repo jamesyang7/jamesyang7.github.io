@@ -314,7 +314,7 @@ author_profile: true
         <a class="pub-btn paper" href="https://arxiv.org/abs/2512.12378">Paper</a>
         <a class="pub-btn code" href="https://github.com/FanJunqiao/M4Human">Code</a>
         <a class="pub-btn website" href="https://fanjunqiao.github.io/M4Human-site/">Website</a>
-        <a class="pub-btn project" href="/projects/#m4human">Project</a>
+        <a class="pub-btn project" href="/projects/m4human/">Project</a>
       </div>
     </article>
 
@@ -351,7 +351,7 @@ author_profile: true
       </div>
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2412.00555">Paper</a>
-        <a class="pub-btn project" href="/projects/#crowd-nav">Project</a>
+        <a class="pub-btn project" href="/projects/crowd-navigation/">Project</a>
       </div>
     </article>
 
@@ -369,7 +369,7 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2409.11122">Paper</a>
         <a class="pub-btn code" href="https://github.com/brytsknguyen/uloc">Code</a>
-        <a class="pub-btn project" href="/projects/#uloc">Project</a>
+        <a class="pub-btn project" href="/projects/uloc/">Project</a>
       </div>
     </article>
 
@@ -385,7 +385,7 @@ author_profile: true
       </div>
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2504.10828">Paper</a>
-        <a class="pub-btn project" href="/projects/#crowd-nav">Project</a>
+        <a class="pub-btn project" href="/projects/crowd-navigation/">Project</a>
       </div>
     </article>
 
@@ -438,7 +438,7 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2402.03706">Paper</a>
         <a class="pub-btn code" href="https://github.com/ntu-aris/MMAUD">Code</a>
-        <a class="pub-btn project" href="/projects/#anti-uav">Project</a>
+        <a class="pub-btn project" href="/projects/anti-uav/">Project</a>
       </div>
     </article>
 
@@ -469,7 +469,7 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://www.sciencedirect.com/science/article/pii/S2949855424000285">Paper</a>
         <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-FDTI/">Code</a>
-        <a class="pub-btn project" href="/projects/#anti-uav">Project</a>
+        <a class="pub-btn project" href="/projects/anti-uav/">Project</a>
       </div>
     </article>
 
@@ -539,7 +539,7 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2411.06789">Paper</a>
         <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-PedAware">Code</a>
-        <a class="pub-btn project" href="/projects/#av-pedaware">Project</a>
+        <a class="pub-btn project" href="/projects/av-pedaware/">Project</a>
       </div>
     </article>
   </div>

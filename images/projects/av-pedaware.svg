@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">AV-PedAware project visual</title>
+  <desc id="desc">Stylized audio-visual pedestrian awareness scene with camera frame and waveform.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#173d5b"/>
+      <stop offset="56%" stop-color="#2d7b89"/>
+      <stop offset="100%" stop-color="#95d4c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" rx="36" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" opacity="0.92" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M118 188 L132 188 L148 158 L166 226 L184 172 L202 248 L220 196 L238 214 L256 176 L272 176" stroke-width="8"/>
+    <path d="M492 120 H676 V300 H492 Z" stroke-width="8"/>
+    <path d="M522 154 H642" stroke-width="6" opacity="0.55"/>
+    <path d="M522 266 H642" stroke-width="6" opacity="0.55"/>
+    <path d="M522 154 V266" stroke-width="6" opacity="0.55"/>
+    <path d="M642 154 V266" stroke-width="6" opacity="0.55"/>
+  </g>
+  <g transform="translate(520 160)" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="62" cy="40" r="18"/>
+    <path d="M62 58 V116"/>
+    <path d="M62 76 L24 106"/>
+    <path d="M62 76 L102 104"/>
+    <path d="M62 116 L30 156"/>
+    <path d="M62 116 L98 156"/>
+  </g>
+  <g opacity="0.18" fill="#ffffff">
+    <circle cx="382" cy="188" r="56"/>
+    <circle cx="382" cy="188" r="88"/>
+  </g>
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="78" font-size="20" font-weight="700" opacity="0.84">AUDIO-VISUAL FUSION</text>
+    <text x="54" y="360" font-size="56" font-weight="700">AV-PedAware</text>
+    <text x="54" y="402" font-size="24" opacity="0.88">self-supervised pedestrian awareness in dynamic scenes</text>
+  </g>
+</svg>

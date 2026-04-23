@@ -84,6 +84,104 @@ author_profile: true
   background: #738a9a;
 }
 
+.featured-pub-list {
+  display: grid;
+  gap: 18px;
+  margin: 0.45rem 0 1.35rem;
+}
+
+.featured-pub-card {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #dbe7ee;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbfd 100%);
+  box-shadow: 0 8px 22px rgba(16, 36, 56, 0.05);
+}
+
+.featured-pub-media {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid #d9e5ec;
+  border-radius: 12px;
+  background: #eef4f8;
+}
+
+.featured-pub-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.featured-pub-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-pub-title {
+  margin: 0 0 8px;
+  color: #173756;
+  font-size: 1.02rem;
+  font-weight: 800;
+  line-height: 1.42;
+}
+
+.featured-pub-authors {
+  margin: 0 0 10px;
+  color: #7a8088;
+  font-size: 0.93rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.featured-pub-note {
+  margin-bottom: 14px;
+  padding: 11px 14px;
+  border-radius: 12px;
+  background: #f4f7fa;
+  color: #2f89d9;
+  font-size: 0.92rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.featured-pub-desc {
+  margin: 0 0 14px;
+  color: #627485;
+  font-size: 0.93rem;
+  line-height: 1.68;
+}
+
+.featured-pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.featured-pub-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 76px;
+  padding: 7px 12px;
+  border: 1px solid #d6e2eb;
+  border-radius: 6px;
+  background: #fff;
+  color: #2a78b7 !important;
+  font-size: 0.88rem;
+  text-decoration: none !important;
+}
+
+.featured-pub-link:hover {
+  border-color: #9ec7df;
+  background: #f7fbfe;
+}
+
 .home-links-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -144,6 +242,14 @@ author_profile: true
   .news-date {
     margin-bottom: 2px;
   }
+
+  .featured-pub-card {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-pub-media {
+    max-width: 220px;
+  }
 }
 </style>
 
@@ -187,6 +293,12 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
     </div>
   </div>
 
+  <div class="news-item">
+    <div class="news-date">2024/06</div>
+    <div class="news-content">
+      Our paper <a href="https://arxiv.org/abs/2411.06789"><strong>AV-PedAware</strong></a> was accepted to <em>IROS 2024</em>.
+    </div>
+  </div>
 
   <div class="news-item">
     <div class="news-date">2024/01</div>
@@ -201,14 +313,64 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
       Our paper <strong>A few-shot machinery fault diagnosis framework based on self-supervised signal representation learning</strong> was accepted to <em>IEEE TIM</em>.
     </div>
   </div>
+</div>
 
-  <div class="news-item">
-    <div class="news-date">2023/06</div>
-    <div class="news-content">
-      Our paper <a href="https://arxiv.org/abs/2411.06789"><strong>AV-PedAware</strong></a> was accepted to <em>IROS 2023</em>.
+## Research Highlights
+
+<div class="featured-pub-list">
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/m4human.svg" alt="Visual summary for M4Human" loading="lazy">
     </div>
-  </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction</h3>
+      <p class="featured-pub-authors">J. Fan, Y. Zhou, <strong>Y. Yang</strong>, X. Cui, J. Zhang, L. Xie, J. Yang, C.X. Lu, F. Ding</p>
+      <div class="featured-pub-note">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
+      <p class="featured-pub-desc">
+        A benchmark paper centered on multimodal sensing and radar-based 3D human understanding, with an emphasis on robust perception beyond purely visual settings.
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2512.12378">Paper</a>
+        <a class="featured-pub-link" href="https://github.com/FanJunqiao/M4Human">Code</a>
+      </div>
+    </div>
+  </article>
 
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/uloc.svg" alt="Visual summary for ULoc" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">ULoc: Learning to Localize in Complex Large-Scale Environments with UWB Ranges</h3>
+      <p class="featured-pub-authors">T.M. Nguyen, <strong>Y. Yang</strong>, T.D. Nguyen, S. Yuan, L. Xie</p>
+      <div class="featured-pub-note">IEEE International Conference on Robotics and Automation (ICRA), 2025</div>
+      <p class="featured-pub-desc">
+        A localization paper that uses ultra-wideband range signals to improve positioning robustness in complex large-scale environments.
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2409.11122">Paper</a>
+        <a class="featured-pub-link" href="https://github.com/brytsknguyen/uloc">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/av-pedaware.svg" alt="Visual summary for AV-PedAware" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</h3>
+      <p class="featured-pub-authors"><strong>Y. Yang</strong>, S. Yuan, M. Cao, J. Yang, L. Xie</p>
+      <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
+      <p class="featured-pub-desc">
+        A self-supervised audio-visual fusion paper for stronger pedestrian awareness in dynamic scenes, with direct relevance to embodied navigation and safe autonomy.
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2411.06789">Paper</a>
+        <a class="featured-pub-link" href="https://github.com/yizhuoyang/AV-PedAware">Code</a>
+      </div>
+    </div>
+  </article>
 </div>
 
 ## Explore
