@@ -6,48 +6,59 @@ author_profile: true
 ---
 
 <style>
-/* unify body text and news style */
-.page__content p,
+.page__content > p,
 .page__content li,
 .page__content .news-content,
 .page__content .news-date {
-  font-size: 0.96rem;
-  line-height: 1.65;
+  font-size: 0.97rem;
+  line-height: 1.7;
 }
 
 .page__content h2 {
-  margin-top: 1.4rem;
-  margin-bottom: 0.6rem;
+  margin-top: 1.55rem;
+  margin-bottom: 0.7rem;
 }
 
 .news-scroll-box {
-  max-height: 240px;
+  max-height: 260px;
   overflow-y: auto;
-  padding-right: 10px;
-  margin-top: 0.4rem;
-  margin-bottom: 1.2rem;
+  padding: 14px 14px 6px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.35rem;
+  border: 1px solid #dbe7ee;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fbfdfe 0%, #f5f9fc 100%);
+  box-shadow: 0 10px 24px rgba(16, 36, 56, 0.05);
 }
 
 .news-item {
   display: grid;
   grid-template-columns: 88px 1fr;
   column-gap: 16px;
-  margin-bottom: 10px;
   align-items: start;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e6eef3;
+}
+
+.news-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  border-bottom: 0;
 }
 
 .news-date {
-  font-weight: 700;
-  color: #444;
+  font-weight: 800;
+  color: #173756;
   white-space: nowrap;
 }
 
 .news-content {
-  color: #444;
+  color: #445566;
 }
 
 .news-content a {
-  color: #4aa3d8;
+  color: #24709a;
   text-decoration: none;
 }
 
@@ -60,17 +71,79 @@ author_profile: true
 }
 
 .news-scroll-box::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 8px;
+  background: #eef3f6;
+  border-radius: 999px;
 }
 
 .news-scroll-box::-webkit-scrollbar-thumb {
-  background: #9a9a9a;
-  border-radius: 8px;
+  background: #93a8b6;
+  border-radius: 999px;
 }
 
 .news-scroll-box::-webkit-scrollbar-thumb:hover {
-  background: #7d7d7d;
+  background: #738a9a;
+}
+
+.home-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 0.35rem 0 1.2rem;
+}
+
+.home-link-card {
+  display: block;
+  padding: 18px;
+  border: 1px solid #dbe7ee;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6fafc 100%);
+  box-shadow: 0 8px 22px rgba(16, 36, 56, 0.05);
+  text-decoration: none !important;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-link-card:hover {
+  transform: translateY(-2px);
+  border-color: #8fc3d8;
+  box-shadow: 0 14px 28px rgba(16, 36, 56, 0.08);
+}
+
+.home-link-label {
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #ecf5fb;
+  color: #1f6a92;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.home-link-title {
+  display: block;
+  margin-top: 12px;
+  color: #173756;
+  font-size: 1.04rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.home-link-desc {
+  display: block;
+  margin-top: 8px;
+  color: #647586;
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .news-item {
+    grid-template-columns: 1fr;
+  }
+
+  .news-date {
+    margin-bottom: 2px;
+  }
 }
 </style>
 
@@ -86,9 +159,9 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
 - Anomaly detection
 
 ## Education
-- **Ph.D. Candidate**, School of Electrical and Electronic Engineering, Nanyang Technological University, 2022–Present
-- **M.Sc.**, School of Electrical and Electronic Engineering, Nanyang Technological University, 2021–2022
-- **B.Eng. (First Class Honours)**, Glasgow College, University of Electronic Science and Technology of China (UESTC), 2017–2021
+- **Ph.D. Candidate**, School of Electrical and Electronic Engineering, Nanyang Technological University, 2022-Present
+- **M.Sc.**, School of Electrical and Electronic Engineering, Nanyang Technological University, 2021-2022
+- **B.Eng. (First Class Honours)**, Glasgow College, University of Electronic Science and Technology of China (UESTC), 2017-2021
 
 ## News
 
@@ -96,7 +169,7 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
   <div class="news-item">
     <div class="news-date">2026/02</div>
     <div class="news-content">
-      Our paper <a href="https://arxiv.org/abs/2512.12378"><strong>H4Human</strong></a> was accepted to <em>CVPR 2026</em>.
+      Our paper <a href="https://arxiv.org/abs/2512.12378"><strong>M4Human</strong></a> was accepted to <em>CVPR 2026</em>.
     </div>
   </div>
 
@@ -123,18 +196,41 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
   </div>
 
   <div class="news-item">
-    <div class="news-date">2024/06</div>
-    <div class="news-content">
-      Our paper <a href="https://arxiv.org/abs/2411.06789"><strong>AV-PedAware</strong></a> was accepted to <em>IROS 2024</em>.
-    </div>
-  </div>
-
-  <div class="news-item">
     <div class="news-date">2024/01</div>
     <div class="news-content">
       Our paper <strong>A few-shot machinery fault diagnosis framework based on self-supervised signal representation learning</strong> was accepted to <em>IEEE TIM</em>.
     </div>
   </div>
+
+  <div class="news-item">
+    <div class="news-date">2023/06</div>
+    <div class="news-content">
+      Our paper <a href="https://arxiv.org/abs/2411.06789"><strong>AV-PedAware</strong></a> was accepted to <em>IROS 2023</em>.
+    </div>
+  </div>
+
+</div>
+
+## Explore
+
+<div class="home-links-grid">
+  <a class="home-link-card" href="/publications/">
+    <span class="home-link-label">Publications</span>
+    <span class="home-link-title">Browse papers, code links, and project pages</span>
+    <span class="home-link-desc">A curated list of conference papers and journal articles in multimodal perception, robot learning, and autonomous systems.</span>
+  </a>
+
+  <a class="home-link-card" href="/projects/">
+    <span class="home-link-label">Projects</span>
+    <span class="home-link-title">See selected systems and research directions</span>
+    <span class="home-link-desc">A project-oriented view of your work, organized around themes like localization, crowd navigation, and multimodal perception.</span>
+  </a>
+
+  <a class="home-link-card" href="/awards/">
+    <span class="home-link-label">Awards</span>
+    <span class="home-link-title">See scholarships and academic honors</span>
+    <span class="home-link-desc">A concise overview of undergraduate distinctions, graduation honors, and merit-based recognitions.</span>
+  </a>
 </div>
 
 ## Contact

@@ -430,24 +430,24 @@ author_profile: false
     <div class="cv-section-title">Selected Publications</div>
     <ul class="cv-publication-list">
       <li>
-        <a href="https://arxiv.org/abs/2409.11122" target="_blank" rel="noopener noreferrer">ULoc: Learning to Localize in Complex Large-Scale Environments with Ultra-Wideband Ranges</a>
-        <span class="cv-publication-venue">ICRA 2025</span>
+        <a href="https://arxiv.org/abs/2411.06789" target="_blank" rel="noopener noreferrer">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</a>
+        <span class="cv-publication-venue">IROS 2023</span>
       </li>
       <li>
         <a href="https://www.sciencedirect.com/science/article/pii/S2949855424000285" target="_blank" rel="noopener noreferrer">AV-FDTI: Audio-visual fusion for drone threat identification”, Journal of Automation and Intelligence</a>
         <span class="cv-publication-venue">JAI 2024</span>
       </li>
       <li>
-        <a rel="noopener noreferrer">A Few-Shot Machinery Fault Diagnosis Framework Based on Self-Supervised Signal Representation Learning</a>
-        <span class="cv-publication-venue">TIM 2024</span>
-      </li>
-      <li>
         <a href="https://arxiv.org/abs/2402.03706" target="_blank" rel="noopener noreferrer">MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats</a>
         <span class="cv-publication-venue">ICRA 2024</span>
       </li>
       <li>
-        <a href="https://arxiv.org/abs/2411.06789" target="_blank" rel="noopener noreferrer">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</a>
-        <span class="cv-publication-venue">IROS 2023</span>
+        <a rel="noopener noreferrer">A Few-Shot Machinery Fault Diagnosis Framework Based on Self-Supervised Signal Representation Learning</a>
+        <span class="cv-publication-venue">TIM 2024</span>
+      </li>
+      <li>
+        <a href="https://arxiv.org/abs/2409.11122" target="_blank" rel="noopener noreferrer">ULoc: Learning to Localize in Complex Large-Scale Environments with Ultra-Wideband Ranges</a>
+        <span class="cv-publication-venue">ICRA 2025</span>
       </li>
     </ul>
   </section>

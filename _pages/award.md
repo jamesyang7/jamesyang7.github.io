@@ -1,120 +1,187 @@
 ---
 layout: archive
-# title: "Awards"
+title: "Awards"
 permalink: /awards/
 author_profile: true
 ---
 
 <style>
-.awards-page-title {
-  font-size: 1.45rem;
+.awards-hero {
+  padding: 22px 24px;
+  border: 1px solid #d7e5ee;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #fff9ef 0%, #f7efe3 55%, #f2e3ce 100%);
+  box-shadow: 0 14px 32px rgba(98, 76, 43, 0.08);
+}
+
+.awards-kicker {
+  margin-bottom: 10px;
+  color: #936b31;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.awards-hero p {
+  margin: 0;
+  max-width: 740px;
+  color: #5f4d34;
+  font-size: 0.97rem;
+  line-height: 1.72;
+}
+
+.awards-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.awards-tag {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(147, 107, 49, 0.12);
+  color: #805c27;
+  font-size: 0.85rem;
   font-weight: 700;
-  color: #1f3b5b;
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 2px solid #5fa8ff;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 1.4rem;
 }
 
 .award-card {
-  background: #f8f9fb;
-  border-left: 3px solid #d9dfe7;
-  border-radius: 8px;
-  padding: 16px 20px;
-  margin: 14px 0 18px 0;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
-}
-
-.award-year {
-  display: inline-block;
-  background: #dcecff;
-  color: #2d87d3;
-  font-weight: 700;
-  font-size: 0.88rem;
-  padding: 6px 12px;
-  border-radius: 11px;
-  margin-bottom: 10px;
-}
-
-.award-title {
-  font-size: 1.12rem;
-  font-weight: 700;
-  color: #1f3b5b;
-  line-height: 1.35;
-  margin-bottom: 7px;
-}
-
-.award-desc {
-  font-size: 0.94rem;
-  color: #6c7a89;
-  line-height: 1.58;
-  margin-bottom: 9px;
-}
-
-.award-tag {
-  display: inline-block;
-  background: #d8f3e4;
-  color: #1f9d55;
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 5px 10px;
-  border-radius: 11px;
+  padding: 20px;
+  border: 1px solid #e3e8ed;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfcfd 100%);
+  box-shadow: 0 8px 22px rgba(16, 36, 56, 0.05);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .award-card:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-  transition: all 0.2s ease;
+  transform: translateY(-2px);
+  border-color: #d6bb86;
+  box-shadow: 0 14px 30px rgba(16, 36, 56, 0.08);
 }
 
-@media (max-width: 768px) {
+.award-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.award-stage,
+.award-tag {
+  display: inline-flex;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.award-stage {
+  background: #f3f0e8;
+  color: #8b6731;
+}
+
+.award-tag {
+  background: #edf7f1;
+  color: #2d7b53;
+}
+
+.award-title {
+  margin: 0 0 8px;
+  color: #173756;
+  font-size: 1.06rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.award-desc {
+  margin: 0;
+  color: #667788;
+  font-size: 0.94rem;
+  line-height: 1.66;
+}
+
+@media (max-width: 900px) {
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .awards-hero,
   .award-card {
-    padding: 14px 14px;
-  }
-
-  .award-title {
-    font-size: 1.02rem;
-  }
-
-  .award-desc {
-    font-size: 0.9rem;
+    padding: 18px 16px;
   }
 }
 </style>
 
-<div class="awards-page-title">Awards & Honors</div>
+<div class="awards-hero">
+  <div class="awards-kicker">Honors</div>
+  <p>
+    A concise overview of scholarships and academic distinctions received during undergraduate study,
+    reflecting consistent performance across coursework, research, and graduation milestones.
+  </p>
 
-<div class="award-card">
-  <div class="award-year">Undergraduate</div>
-  <div class="award-title">National Scholarship</div>
-  <div class="award-desc">
-    Awarded in recognition of outstanding academic performance and comprehensive achievements during undergraduate study.
+  <div class="awards-tags">
+    <span class="awards-tag">Scholarships</span>
+    <span class="awards-tag">Academic Honors</span>
+    <span class="awards-tag">Graduation Recognition</span>
   </div>
-  <div class="award-tag">Prestigious Scholarship</div>
 </div>
 
-<div class="award-card">
-  <div class="award-year">Undergraduate</div>
-  <div class="award-title">Outstanding Student Scholarship × 3</div>
-  <div class="award-desc">
-    Received three times for excellent academic performance, consistent dedication, and overall achievements.
-  </div>
-  <div class="award-tag">Merit Scholarship</div>
-</div>
+<div class="awards-grid">
+  <article class="award-card">
+    <div class="award-card-top">
+      <span class="award-stage">Undergraduate</span>
+      <span class="award-tag">Prestigious Scholarship</span>
+    </div>
+    <div class="award-title">National Scholarship</div>
+    <div class="award-desc">
+      Awarded in recognition of outstanding academic performance and comprehensive achievements during undergraduate study.
+    </div>
+  </article>
 
-<div class="award-card">
-  <div class="award-year">2021</div>
-  <div class="award-title">Outstanding Graduate</div>
-  <div class="award-desc">
-    Recognized upon graduation for outstanding academic record and overall performance during undergraduate study.
-  </div>
-  <div class="award-tag">Graduation Honor</div>
-</div>
+  <article class="award-card">
+    <div class="award-card-top">
+      <span class="award-stage">Undergraduate</span>
+      <span class="award-tag">Merit Scholarship</span>
+    </div>
+    <div class="award-title">Outstanding Student Scholarship (3 Times)</div>
+    <div class="award-desc">
+      Received three times for excellent academic performance, consistent dedication, and overall achievements.
+    </div>
+  </article>
 
-<div class="award-card">
-  <div class="award-year">2021</div>
-  <div class="award-title">Outstanding Undergraduate Thesis</div>
-  <div class="award-desc">
-    Awarded for the quality and excellence of the undergraduate thesis work.
-  </div>
-  <div class="award-tag">Academic Achievement</div>
+  <article class="award-card">
+    <div class="award-card-top">
+      <span class="award-stage">2021</span>
+      <span class="award-tag">Graduation Honor</span>
+    </div>
+    <div class="award-title">Outstanding Graduate</div>
+    <div class="award-desc">
+      Recognized upon graduation for outstanding academic record and overall performance during undergraduate study.
+    </div>
+  </article>
+
+  <article class="award-card">
+    <div class="award-card-top">
+      <span class="award-stage">2021</span>
+      <span class="award-tag">Academic Achievement</span>
+    </div>
+    <div class="award-title">Outstanding Undergraduate Thesis</div>
+    <div class="award-desc">
+      Awarded for the quality and excellence of the undergraduate thesis work.
+    </div>
+  </article>
 </div>
