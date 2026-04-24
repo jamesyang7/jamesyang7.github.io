@@ -3,6 +3,8 @@ layout: single
 title: "Multi-Level Situation Awareness for Safe and Efficient Multi-agent Collaboration in Smart Manufacturing"
 permalink: /projects/delta/
 author_profile: true
+lang: en
+translation_url: /zh/projects/delta/
 ---
 
 {% include project-detail-styles.html %}
@@ -64,7 +66,7 @@ author_profile: true
     <div class="project-related-authors"> M. Cao*, X. Xu*, <strong>Y. Yang*</strong>, J. Li, T. Jin, P. Wang, T.Y. Hung, G. Lin, L. Xie</div>
     <div class="project-related-links">
       <a class="project-detail-btn paper" href="https://arxiv.org/abs/2412.00555">Paper</a>
-      <a class="project-detail-btn video" href="https://www.youtube.com/watch?v=nSCbNaaF_VM">Vedio</a>
+      <a class="project-detail-btn video" href="https://www.youtube.com/watch?v=nSCbNaaF_VM">Video</a>
     </div>
   </article>
 </div>

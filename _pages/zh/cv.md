@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "CV"
-permalink: /cv/
+title: "简历"
+permalink: /zh/cv/
 author_profile: false
-lang: en
-translation_url: /zh/cv/
+lang: zh
+translation_url: /cv/
 ---
 
 {% include cv-page-styles.html %}
@@ -14,13 +14,13 @@ translation_url: /zh/cv/
     <div class="cv-hero-kicker">Curriculum Vitae</div>
     <h1>Yizhuo Yang</h1>
     <p>
-      Ph.D. student in Electrical and Electronic Engineering at Nanyang Technological University, working on
-      multimodal robot perception, robot audition, audio-visual fusion, and embodied navigation for autonomous systems.
+      南洋理工大学电子与电气工程专业博士生，研究方向包括多模态机器人感知、机器人听觉、
+      音视频融合以及面向自主系统的具身导航。
     </p>
 
     <div class="cv-hero-actions">
-      <a class="cv-download-btn" href="/files/CV_Yizhuo_Yang.pdf" target="_blank" rel="noopener noreferrer">Download PDF</a>
-      <a class="cv-secondary-link" href="mailto:yizhuo001@e.ntu.edu.sg">Contact by email</a>
+      <a class="cv-download-btn" href="/files/CV_Yizhuo_Yang.pdf" target="_blank" rel="noopener noreferrer">下载 PDF</a>
+      <a class="cv-secondary-link" href="mailto:yizhuo001@e.ntu.edu.sg">邮件联系</a>
     </div>
 
     <div class="cv-hero-links">
@@ -31,28 +31,28 @@ translation_url: /zh/cv/
   </section>
 
   <section class="cv-section">
-    <div class="cv-section-title">Education</div>
+    <div class="cv-section-title">教育经历</div>
 
     <div class="cv-item cv-edu-item">
       <div>
-        <div class="cv-item-title">Ph.D. in Electrical and Electronic Engineering</div>
-        <div class="cv-item-subtitle">Nanyang Technological University, Singapore</div>
+        <div class="cv-item-title">电子与电气工程博士</div>
+        <div class="cv-item-subtitle">南洋理工大学，新加坡</div>
       </div>
-      <div class="cv-item-meta">2022 - Present</div>
+      <div class="cv-item-meta">2022 - 至今</div>
     </div>
 
     <div class="cv-item cv-edu-item">
       <div>
-        <div class="cv-item-title">M.Sc. in Electrical and Electronic Engineering</div>
-        <div class="cv-item-subtitle">Nanyang Technological University, Singapore</div>
+        <div class="cv-item-title">电子与电气工程硕士</div>
+        <div class="cv-item-subtitle">南洋理工大学，新加坡</div>
       </div>
       <div class="cv-item-meta">2021 - 2022</div>
     </div>
 
     <div class="cv-item cv-edu-item">
       <div>
-        <div class="cv-item-title">B.Eng. (First Class Honours) in Electronics and Electrical Engineering</div>
-        <div class="cv-item-subtitle">Glasgow College, University of Electronic Science and Technology of China (UESTC)</div>
+        <div class="cv-item-title">电子与电气工程学士（一等荣誉）</div>
+        <div class="cv-item-subtitle">电子科技大学格拉斯哥学院</div>
       </div>
       <div class="cv-item-meta">2017 - 2021</div>
     </div>
@@ -60,18 +60,18 @@ translation_url: /zh/cv/
 
   <div class="cv-grid">
     <section class="cv-section">
-      <div class="cv-section-title">Research Interests</div>
+      <div class="cv-section-title">研究方向</div>
       <div class="cv-tag-list">
-        <span class="cv-tag">Multimodal robot perception</span>
-        <span class="cv-tag">Audio-visual fusion</span>
-        <span class="cv-tag">Robot audition</span>
-        <span class="cv-tag">Embodied navigation</span>
-        <span class="cv-tag">Anomaly detection for autonomous robots</span>
+        <span class="cv-tag">多模态机器人感知</span>
+        <span class="cv-tag">音视频融合</span>
+        <span class="cv-tag">机器人听觉</span>
+        <span class="cv-tag">具身导航</span>
+        <span class="cv-tag">自主机器人异常检测</span>
       </div>
     </section>
 
     <section class="cv-section">
-      <div class="cv-section-title">Skills</div>
+      <div class="cv-section-title">技能</div>
       <div class="cv-tag-list">
         <span class="cv-tag">Python</span>
         <span class="cv-tag">PyTorch</span>
@@ -86,14 +86,14 @@ translation_url: /zh/cv/
   </div>
 
   <section class="cv-section">
-    <div class="cv-section-title">Selected Publications</div>
+    <div class="cv-section-title">代表性论文</div>
     <ul class="cv-publication-list">
       <li>
         <a href="https://arxiv.org/abs/2411.06789" target="_blank" rel="noopener noreferrer">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</a>
         <span class="cv-publication-venue">IROS 2023</span>
       </li>
       <li>
-        <a href="https://www.sciencedirect.com/science/article/pii/S2949855424000285" target="_blank" rel="noopener noreferrer">AV-FDTI: Audio-visual fusion for drone threat identification”, Journal of Automation and Intelligence</a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2949855424000285" target="_blank" rel="noopener noreferrer">AV-FDTI: Audio-Visual Fusion for Drone Threat Identification</a>
         <span class="cv-publication-venue">JAI 2024</span>
       </li>
       <li>
@@ -113,32 +113,32 @@ translation_url: /zh/cv/
 
   <div class="cv-grid">
     <section class="cv-section">
-      <div class="cv-section-title">Awards and Honors</div>
+      <div class="cv-section-title">奖项与荣誉</div>
       <div class="cv-note-list">
         <div class="cv-note-item">
-          <div class="cv-item-title">National Scholarship</div>
-          <div class="cv-item-subtitle">Awarded for outstanding academic performance and comprehensive achievements.</div>
+          <div class="cv-item-title">国家奖学金</div>
+          <div class="cv-item-subtitle">因优异的学业表现与综合能力获得奖励。</div>
         </div>
         <div class="cv-note-item">
-          <div class="cv-item-title">Outstanding Student Scholarship (3 times)</div>
-          <div class="cv-item-subtitle">Received multiple times for excellent academic performance and overall achievements.</div>
+          <div class="cv-item-title">优秀学生奖学金（三次）</div>
+          <div class="cv-item-subtitle">多次因优良成绩和综合表现获得奖学金。</div>
         </div>
         <div class="cv-note-item">
-          <div class="cv-item-title">Outstanding Graduate</div>
-          <div class="cv-item-subtitle">Recognized upon graduation for academic excellence and overall performance.</div>
+          <div class="cv-item-title">优秀毕业生</div>
+          <div class="cv-item-subtitle">本科毕业时因学术表现与综合素质突出获得表彰。</div>
         </div>
         <div class="cv-note-item">
-          <div class="cv-item-title">Outstanding Undergraduate Thesis</div>
-          <div class="cv-item-subtitle">Awarded for excellence in undergraduate thesis work.</div>
+          <div class="cv-item-title">优秀本科毕业论文</div>
+          <div class="cv-item-subtitle">因本科毕业论文工作质量突出而获得奖励。</div>
         </div>
       </div>
     </section>
 
     <section class="cv-section">
-      <div class="cv-section-title">Contact</div>
+      <div class="cv-section-title">联系方式</div>
       <div class="cv-contact-grid">
         <a class="cv-contact-card" href="mailto:yizhuo001@e.ntu.edu.sg">
-          <span class="cv-contact-label">Email</span>
+          <span class="cv-contact-label">邮箱</span>
           <span class="cv-contact-value">yizhuo001@e.ntu.edu.sg</span>
         </a>
         <a class="cv-contact-card" href="https://github.com/jamesyang7" target="_blank" rel="noopener noreferrer">
@@ -147,7 +147,7 @@ translation_url: /zh/cv/
         </a>
         <a class="cv-contact-card" href="https://scholar.google.com/citations?user=d2aOcXsAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">
           <span class="cv-contact-label">Google Scholar</span>
-          <span class="cv-contact-value">View profile</span>
+          <span class="cv-contact-value">查看主页</span>
         </a>
         <a class="cv-contact-card" href="https://orcid.org/0009-0000-9139-1542" target="_blank" rel="noopener noreferrer">
           <span class="cv-contact-label">ORCID</span>

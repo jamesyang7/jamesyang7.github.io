@@ -1,37 +1,37 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "论文"
+permalink: /zh/publications/
 author_profile: true
-lang: en
-translation_url: /zh/publications/
+lang: zh
+translation_url: /publications/
 ---
 
 {% include publications-page-styles.html %}
 
 <div class="pub-hero">
-  <div class="pub-hero-kicker">Research Output</div>
+  <div class="pub-hero-kicker">研究成果</div>
   <p>
-    Selected papers in multimodal robot perception, audio-visual fusion, embodied navigation, and autonomous systems,
-    with links to papers, code repositories, and websites when available.
+    这里整理了我在多模态机器人感知、音视频融合、具身导航与自主系统方向的代表性论文，
+    并附上论文、代码和相关网站链接。
   </p>
 
   <div class="pub-topics">
-    <span class="pub-topic">Multimodal perception</span>
-    <span class="pub-topic">Audio-visual fusion</span>
-    <span class="pub-topic">Robot learning</span>
-    <span class="pub-topic">Embodied navigation</span>
+    <span class="pub-topic">多模态感知</span>
+    <span class="pub-topic">音视频融合</span>
+    <span class="pub-topic">机器人学习</span>
+    <span class="pub-topic">具身导航</span>
   </div>
 
   <div class="pub-hero-actions">
-    <a class="pub-hero-link primary" href="https://scholar.google.com/citations?user=d2aOcXsAAAAJ&hl=zh-CN">View Google Scholar</a>
+    <a class="pub-hero-link primary" href="https://scholar.google.com/citations?user=d2aOcXsAAAAJ&hl=zh-CN">查看 Google Scholar</a>
   </div>
 </div>
 
 <div class="pub-note">
-  This page highlights representative publications. You can also find the full list of articles on
-  <a href="https://scholar.google.com/citations?user=d2aOcXsAAAAJ&hl=zh-CN">my Google Scholar profile</a>.
-  An asterisk indicates equal contribution where applicable.
+  本页展示代表性论文成果。完整论文列表也可以在
+  <a href="https://scholar.google.com/citations?user=d2aOcXsAAAAJ&hl=zh-CN">Google Scholar</a>
+  中查看。带星号表示共同贡献。
 </div>
 
 <section class="pub-year-section">
@@ -48,7 +48,7 @@ translation_url: /zh/publications/
         IEEE Sensors Journal
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2412.16928">Paper</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2412.16928">论文</a>
       </div>
     </article>
 
@@ -63,9 +63,9 @@ translation_url: /zh/publications/
         IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2512.12378">Paper</a>
-        <a class="pub-btn code" href="https://github.com/FanJunqiao/M4Human">Code</a>
-        <a class="pub-btn website" href="https://fanjunqiao.github.io/M4Human-site/">Website</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2512.12378">论文</a>
+        <a class="pub-btn code" href="https://github.com/FanJunqiao/M4Human">代码</a>
+        <a class="pub-btn website" href="https://fanjunqiao.github.io/M4Human-site/">网站</a>
       </div>
     </article>
 
@@ -80,7 +80,7 @@ translation_url: /zh/publications/
         IEEE International Conference on Robotics and Automation (ICRA), 2026
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2509.13784">Paper</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2509.13784">论文</a>
       </div>
     </article>
   </div>
@@ -90,7 +90,7 @@ translation_url: /zh/publications/
   <div class="pub-year">2025</div>
   <div class="pub-grid">
     <article class="pub-card">
-      <div class="pub-badge">Co-First Author</div>
+      <div class="pub-badge">共同一作</div>
       <div class="pub-title">
         Learning Dynamic Weight Adjustment for Spatial-Temporal Trajectory Planning in Crowd Navigation
       </div>
@@ -101,13 +101,13 @@ translation_url: /zh/publications/
         IEEE International Conference on Robotics and Automation (ICRA), 2025
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2412.00555">Paper</a>
-        <a class="pub-btn video" href="https://www.youtube.com/watch?v=nSCbNaaF_VM">Video</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2412.00555">论文</a>
+        <a class="pub-btn video" href="https://www.youtube.com/watch?v=nSCbNaaF_VM">视频</a>
       </div>
     </article>
 
     <article class="pub-card">
-      <div class="pub-badge">Co-First Author</div>
+      <div class="pub-badge">共同一作</div>
       <div class="pub-title">
         ULoc: Learning to Localize in Complex Large-Scale Environments with Ultra-Wideband Ranges
       </div>
@@ -118,8 +118,8 @@ translation_url: /zh/publications/
         IEEE International Conference on Robotics and Automation (ICRA), 2025
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2409.11122">Paper</a>
-        <a class="pub-btn code" href="https://github.com/brytsknguyen/uloc">Code</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2409.11122">论文</a>
+        <a class="pub-btn code" href="https://github.com/brytsknguyen/uloc">代码</a>
       </div>
     </article>
 
@@ -134,7 +134,7 @@ translation_url: /zh/publications/
         IEEE Robotics and Automation Letters, 2025
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2504.10828">Paper</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2504.10828">论文</a>
       </div>
     </article>
 
@@ -149,7 +149,7 @@ translation_url: /zh/publications/
         Cyborg and Bionic Systems
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://spj.science.org/doi/full/10.34133/cbsystems.0450">Paper</a>
+        <a class="pub-btn paper" href="https://spj.science.org/doi/full/10.34133/cbsystems.0450">论文</a>
       </div>
     </article>
 
@@ -164,7 +164,7 @@ translation_url: /zh/publications/
         IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2412.12716">Paper</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2412.12716">论文</a>
       </div>
     </article>
   </div>
@@ -174,7 +174,7 @@ translation_url: /zh/publications/
   <div class="pub-year">2024</div>
   <div class="pub-grid">
     <article class="pub-card">
-      <div class="pub-badge">Co-First Author</div>
+      <div class="pub-badge">共同一作</div>
       <div class="pub-title">
         MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats
       </div>
@@ -185,13 +185,13 @@ translation_url: /zh/publications/
         IEEE International Conference on Robotics and Automation (ICRA), 2024
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2402.03706">Paper</a>
-        <a class="pub-btn code" href="https://github.com/ntu-aris/MMAUD">Code</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2402.03706">论文</a>
+        <a class="pub-btn code" href="https://github.com/ntu-aris/MMAUD">代码</a>
       </div>
     </article>
 
     <article class="pub-card">
-      <div class="pub-badge">Co-First Author</div>
+      <div class="pub-badge">共同一作</div>
       <div class="pub-title">
         A Few-Shot Machinery Fault Diagnosis Framework Based on Self-Supervised Signal Representation Learning
       </div>
@@ -204,7 +204,7 @@ translation_url: /zh/publications/
     </article>
 
     <article class="pub-card">
-      <div class="pub-badge">First Author</div>
+      <div class="pub-badge">第一作者</div>
       <div class="pub-title">
         AV-FDTI: Audio-Visual Fusion for Drone Threat Identification
       </div>
@@ -215,13 +215,13 @@ translation_url: /zh/publications/
         Journal of Automation and Intelligence
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://www.sciencedirect.com/science/article/pii/S2949855424000285">Paper</a>
-        <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-FDTI/">Code</a>
+        <a class="pub-btn paper" href="https://www.sciencedirect.com/science/article/pii/S2949855424000285">论文</a>
+        <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-FDTI/">代码</a>
       </div>
     </article>
 
     <article class="pub-card">
-      <div class="pub-badge">Co-First Author</div>
+      <div class="pub-badge">共同一作</div>
       <div class="pub-title">
         A data-driven control method for ground locomotion on sloped terrain of a hybrid aerial-ground robot
       </div>
@@ -232,7 +232,7 @@ translation_url: /zh/publications/
         Journal of Automation and Intelligence
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://www.sciencedirect.com/science/article/pii/S2949855424000339">Paper</a>
+        <a class="pub-btn paper" href="https://www.sciencedirect.com/science/article/pii/S2949855424000339">论文</a>
       </div>
     </article>
 
@@ -247,7 +247,7 @@ translation_url: /zh/publications/
         IEEE Robotics and Automation Letters
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2402.02337">Paper</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2402.02337">论文</a>
       </div>
     </article>
 
@@ -262,8 +262,8 @@ translation_url: /zh/publications/
         IEEE Robotics and Automation Letters
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2410.15869">Paper</a>
-        <a class="pub-btn code" href="https://github.com/tongxingjin/txtlcd">Code</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2410.15869">论文</a>
+        <a class="pub-btn code" href="https://github.com/tongxingjin/txtlcd">代码</a>
       </div>
     </article>
   </div>
@@ -273,7 +273,7 @@ translation_url: /zh/publications/
   <div class="pub-year">2023</div>
   <div class="pub-grid">
     <article class="pub-card">
-      <div class="pub-badge">First Author</div>
+      <div class="pub-badge">第一作者</div>
       <div class="pub-title">
         AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness
       </div>
@@ -284,8 +284,8 @@ translation_url: /zh/publications/
         IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://arxiv.org/abs/2411.06789">Paper</a>
-        <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-PedAware">Code</a>
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2411.06789">论文</a>
+        <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-PedAware">代码</a>
       </div>
     </article>
   </div>
@@ -295,7 +295,7 @@ translation_url: /zh/publications/
   <div class="pub-year">2022</div>
   <div class="pub-grid">
     <article class="pub-card">
-      <div class="pub-badge">First Author</div>
+      <div class="pub-badge">第一作者</div>
       <div class="pub-title">
         Overcoming Catastrophic Forgetting for Semantic Segmentation via Incremental Learning
       </div>
@@ -308,7 +308,7 @@ translation_url: /zh/publications/
     </article>
 
     <article class="pub-card">
-      <div class="pub-badge">First Author</div>
+      <div class="pub-badge">第一作者</div>
       <div class="pub-title">
         Few-shot learning for rolling bearing fault diagnosis via siamese two-dimensional convolutional neural network
       </div>
@@ -319,7 +319,7 @@ translation_url: /zh/publications/
         International Conference on Prognostics and System Health Management (PHM-2020 Jinan)
       </div>
       <div class="pub-links">
-        <a class="pub-btn paper" href="https://drive.google.com/file/d/1y4-VK3_cG73j8zSyJ2TRl8lroCNzfFXW/view">Paper</a>
+        <a class="pub-btn paper" href="https://drive.google.com/file/d/1y4-VK3_cG73j8zSyJ2TRl8lroCNzfFXW/view">论文</a>
       </div>
     </article>
   </div>

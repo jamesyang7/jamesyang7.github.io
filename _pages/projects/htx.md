@@ -3,6 +3,8 @@ layout: single
 title: "Development of Embodied AI Language-Based Navigation System"
 permalink: /projects/htx/
 author_profile: true
+lang: en
+translation_url: /zh/projects/htx/
 ---
 
 {% include project-detail-styles.html %}
@@ -20,7 +22,7 @@ author_profile: true
 ## Overview
 
 <p class="project-lead">
-  This project builds a language-driven robotic system for indoor navigation and object retrieval. The system combines language understanding, semantic perception, mapping, planning, and manipulation in a unified pipeline. :contentReference[oaicite:0]{index=0}
+  This project builds a language-driven robotic system for indoor navigation and object retrieval. The system combines language understanding, semantic perception, mapping, planning, and manipulation in a unified pipeline.
 </p>
 
 <div class="project-metric-grid">
@@ -57,13 +59,13 @@ author_profile: true
 ## Multi-Layer Perception and Reasoning
 
 <p class="project-lead">
-  The system adopts a multi-layer architecture with real-time perception, semantic scene memory, and deep reasoning. This allows the robot to maintain fast onboard responsiveness while also supporting higher-level reasoning over stored observations. :contentReference[oaicite:2]{index=2}
+  The system adopts a multi-layer architecture with real-time perception, semantic scene memory, and deep reasoning. This allows the robot to maintain fast onboard responsiveness while also supporting higher-level reasoning over stored observations.
 </p>
 
 ## Semantic Mapping and Spatial Memory
 
 <p class="project-lead">
-  The project incrementally builds a semantic scene graph composed of 3D objects and keyframe images. Detected objects are associated across frames and merged into persistent map entities, while selected keyframes are stored for downstream reasoning and navigation. :contentReference[oaicite:3]{index=3}
+  The project incrementally builds a semantic scene graph composed of 3D objects and keyframe images. Detected objects are associated across frames and merged into persistent map entities, while selected keyframes are stored for downstream reasoning and navigation.
 </p>
 
 ## Semantic SLAM and Loop Closure
@@ -75,7 +77,7 @@ author_profile: true
 ## Search and Fetching
 
 <p class="project-lead">
-  The robot is equipped with a search-and-fetch pipeline that combines instance-level perception, grasp alignment, reachability checking, last-mile docking, and manipulation execution. A two-stage grasping design first computes a stable global grasp reference and then refines it for close-range execution. :contentReference[oaicite:5]{index=5}
+  The robot is equipped with a search-and-fetch pipeline that combines instance-level perception, grasp alignment, reachability checking, last-mile docking, and manipulation execution. A two-stage grasping design first computes a stable global grasp reference and then refines it for close-range execution.
 </p>
 
 ## System Integration

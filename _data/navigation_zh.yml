@@ -1,0 +1,14 @@
+# 中文版顶部导航
+
+main:
+  - title: "论文"
+    url: /zh/publications/
+
+  - title: "项目"
+    url: /zh/projects/
+
+  - title: "荣誉"
+    url: /zh/awards/
+
+  - title: "简历"
+    url: /zh/cv/

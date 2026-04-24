@@ -1,0 +1,238 @@
+<style>
+.pub-hero {
+  padding: 24px 26px;
+  border: 1px solid #d7e5ee;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #12395a 0%, #176d87 58%, #7fc8c2 100%);
+  color: #fff;
+  box-shadow: 0 18px 40px rgba(18, 57, 90, 0.12);
+}
+
+.pub-hero-kicker {
+  margin-bottom: 10px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.pub-hero p {
+  margin: 0;
+  max-width: 760px;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.98rem;
+  line-height: 1.72;
+}
+
+.pub-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.pub-topic {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.pub-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.pub-hero-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 16px;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.pub-hero-link.primary {
+  background: #fff;
+  color: #12395a !important;
+  box-shadow: 0 8px 20px rgba(9, 25, 40, 0.14);
+}
+
+.pub-note {
+  margin-top: 16px;
+  margin-bottom: 1.8rem;
+  padding: 15px 18px;
+  border: 1px solid #dbe7ee;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fbfdfe 0%, #f5f9fc 100%);
+  color: #536575;
+  font-size: 0.94rem;
+  line-height: 1.68;
+}
+
+.pub-note a {
+  color: #24709a;
+  text-decoration: none;
+}
+
+.pub-note a:hover {
+  text-decoration: underline;
+}
+
+.pub-year-section + .pub-year-section {
+  margin-top: 2.2rem;
+}
+
+.pub-year {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #ecf5fb;
+  color: #1e6b92;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.pub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 14px;
+}
+
+.pub-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border: 1px solid #dbe7ee;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbfd 100%);
+  box-shadow: 0 8px 22px rgba(16, 36, 56, 0.05);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pub-card:hover {
+  transform: translateY(-2px);
+  border-color: #92c5d8;
+  box-shadow: 0 14px 30px rgba(16, 36, 56, 0.08);
+}
+
+.pub-badge {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #eef6fb;
+  color: #1f6a92;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.pub-title {
+  margin: 0;
+  color: #173756;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.55;
+}
+
+.pub-authors {
+  color: #617283;
+  font-size: 0.92rem;
+  line-height: 1.62;
+}
+
+.pub-authors strong {
+  color: #173756;
+}
+
+.pub-venue {
+  padding: 11px 13px;
+  border: 1px solid #e0ebf1;
+  border-radius: 14px;
+  background: #fff;
+  color: #536575;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.pub-links:empty {
+  display: none;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 82px;
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 0.87rem;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.pub-btn.paper {
+  background: #eef7f1;
+  border-color: #d1e8d9;
+  color: #1e6a42 !important;
+}
+
+.pub-btn.code {
+  background: #f4eefb;
+  border-color: #dfd3ee;
+  color: #6c409f !important;
+}
+
+.pub-btn.website {
+  background: #eef6fb;
+  border-color: #d4e6f2;
+  color: #1c668e !important;
+}
+
+.pub-btn.video {
+  background: #f9eff6;
+  border-color: #efd5e5;
+  color: #9d4172 !important;
+}
+
+@media (max-width: 900px) {
+  .pub-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .pub-hero,
+  .pub-card {
+    padding: 18px 16px;
+  }
+
+  .pub-hero-actions {
+    flex-direction: column;
+  }
+
+  .pub-hero-link {
+    width: 100%;
+  }
+}
+</style>
