@@ -294,9 +294,9 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
   </div>
 
   <div class="news-item">
-    <div class="news-date">2024/06</div>
+    <div class="news-date">2024/01</div>
     <div class="news-content">
-      Our paper <a href="https://arxiv.org/abs/2411.06789"><strong>AV-PedAware</strong></a> was accepted to <em>IROS 2024</em>.
+      We orgnaized the UG2+ Anti-UAV challenge in CVPR workshop.
     </div>
   </div>
 
@@ -313,54 +313,26 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
       Our paper <strong>A few-shot machinery fault diagnosis framework based on self-supervised signal representation learning</strong> was accepted to <em>IEEE TIM</em>.
     </div>
   </div>
+
+  <div class="news-item">
+    <div class="news-date">2023/06</div>
+    <div class="news-content">
+      Our paper <a href="https://arxiv.org/abs/2411.06789"><strong>AV-PedAware</strong></a> was accepted to <em>IROS 2023</em>.
+    </div>
+  </div>
+
 </div>
 
-## Research Highlights
+## Recent Papers
 
 <div class="featured-pub-list">
   <article class="featured-pub-card">
     <div class="featured-pub-media">
-      <img src="/images/projects/m4human.svg" alt="Visual summary for M4Human" loading="lazy">
-    </div>
-    <div class="featured-pub-body">
-      <h3 class="featured-pub-title">M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction</h3>
-      <p class="featured-pub-authors">J. Fan, Y. Zhou, <strong>Y. Yang</strong>, X. Cui, J. Zhang, L. Xie, J. Yang, C.X. Lu, F. Ding</p>
-      <div class="featured-pub-note">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
-      <p class="featured-pub-desc">
-        A benchmark paper centered on multimodal sensing and radar-based 3D human understanding, with an emphasis on robust perception beyond purely visual settings.
-      </p>
-      <div class="featured-pub-links">
-        <a class="featured-pub-link" href="https://arxiv.org/abs/2512.12378">Paper</a>
-        <a class="featured-pub-link" href="https://github.com/FanJunqiao/M4Human">Code</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="featured-pub-card">
-    <div class="featured-pub-media">
-      <img src="/images/projects/uloc.svg" alt="Visual summary for ULoc" loading="lazy">
-    </div>
-    <div class="featured-pub-body">
-      <h3 class="featured-pub-title">ULoc: Learning to Localize in Complex Large-Scale Environments with UWB Ranges</h3>
-      <p class="featured-pub-authors">T.M. Nguyen, <strong>Y. Yang</strong>, T.D. Nguyen, S. Yuan, L. Xie</p>
-      <div class="featured-pub-note">IEEE International Conference on Robotics and Automation (ICRA), 2025</div>
-      <p class="featured-pub-desc">
-        A localization paper that uses ultra-wideband range signals to improve positioning robustness in complex large-scale environments.
-      </p>
-      <div class="featured-pub-links">
-        <a class="featured-pub-link" href="https://arxiv.org/abs/2409.11122">Paper</a>
-        <a class="featured-pub-link" href="https://github.com/brytsknguyen/uloc">Code</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="featured-pub-card">
-    <div class="featured-pub-media">
-      <img src="/images/projects/av-pedaware.svg" alt="Visual summary for AV-PedAware" loading="lazy">
+      <img src="/images/projects/av-pedaware.gif" alt="Visual summary for AV-PedAware" loading="lazy">
     </div>
     <div class="featured-pub-body">
       <h3 class="featured-pub-title">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</h3>
-      <p class="featured-pub-authors"><strong>Y. Yang</strong>, S. Yuan, M. Cao, J. Yang, L. Xie</p>
+      <p class="featured-pub-authors"><mark>Y. Yang</mark>, S. Yuan, M. Cao, J. Yang, L. Xie</p>
       <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
       <p class="featured-pub-desc">
         A self-supervised audio-visual fusion paper for stronger pedestrian awareness in dynamic scenes, with direct relevance to embodied navigation and safe autonomy.
@@ -371,9 +343,64 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
       </div>
     </div>
   </article>
+
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/av-fdti.png" alt="Visual summary for AV-FDTI" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title"> AV-FDTI: Audio-Visual Fusion for Drone Threat Identification</h3>
+      <p class="featured-pub-authors"><mark>Y. Yang</mark>, S. Yuan, J. Yang, T.H. Nguyen, M. Cao, T.M. Nguyen, H. Wang, L. Xie</p>
+      <div class="featured-pub-note">Journal of Automation and Intelligence (JAI), 2024</div>
+      <p class="featured-pub-desc">
+        An audio-visual drone localization and classification framework.
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://www.sciencedirect.com/science/article/pii/S2949855424000285">Paper</a>
+        <a class="featured-pub-link" href="https://github.com/yizhuoyang/AV-FDTI/">Code</a>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/mmaud.png" alt="Visual summary for MMAUD" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats</h3>
+      <p class="featured-pub-authors">S. Yuan*, <mark>Y. Yang*</mark>, T.H. Nguyen, T.M. Nguyen, J. Yang, F. Liu, J. Li, H. Wang</p>
+      <div class="featured-pub-note"> IEEE International Conference on Robotics and Automation (ICRA), 2024</div>
+      <p class="featured-pub-desc">
+        A broader research direction on anti-UAV perception, combining dataset construction, multimodal sensing, and audio-visual fusion for drone threat analysis. This direction includes both benchmark development and system-level identification pipelines.
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2402.03706">Paper</a>
+        <a class="featured-pub-link" href="https://github.com/ntu-aris/MMAUD">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/uloc.png" alt="Visual summary for ULoc" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">ULoc: Learning to Localize in Complex Large-Scale Environments with UWB Ranges</h3>
+      <p class="featured-pub-authors">T.M. Nguyen*, <mark>Y. Yang*</mark>, T.D. Nguyen, S. Yuan, L. Xie</p>
+      <div class="featured-pub-note">IEEE International Conference on Robotics and Automation (ICRA), 2025</div>
+      <p class="featured-pub-desc">
+        A localization paper that uses ultra-wideband range signals to improve positioning robustness in complex large-scale environments.
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2409.11122">Paper</a>
+        <a class="featured-pub-link" href="https://github.com/brytsknguyen/uloc">Code</a>
+      </div>
+    </div>
+  </article>
 </div>
 
-## Explore
+<!-- ## Explore
 
 <div class="home-links-grid">
   <a class="home-link-card" href="/publications/">
@@ -393,7 +420,7 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
     <span class="home-link-title">See scholarships and academic honors</span>
     <span class="home-link-desc">A concise overview of undergraduate distinctions, graduation honors, and merit-based recognitions.</span>
   </a>
-</div>
+</div> -->
 
 ## Contact
 Email: [yizhuo001@e.ntu.edu.sg](mailto:yizhuo001@e.ntu.edu.sg)

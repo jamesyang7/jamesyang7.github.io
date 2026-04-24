@@ -146,139 +146,46 @@ author_profile: true
   }
 }
 </style>
-
+<!-- 
 <p class="projects-intro">
   Representative systems and research directions in multimodal perception, audio-visual fusion, localization,
   crowd-aware navigation, and autonomous robotics. Each project card below now links to a dedicated project page,
   where we can keep the broader story, visual overview, and future demo media separate from the publication list.
-</p>
+</p> -->
 
 <section class="project-list">
-  <article class="project-card" id="m4human">
+  <article class="project-card" id="delta">
     <div class="project-media">
-      <img src="/images/projects/m4human.svg" alt="Illustration for the M4Human project" loading="lazy">
+      <img src="/images/projects/delta.gif" alt="Illustration for the Delta project" loading="lazy">
     </div>
 
     <div class="project-content">
-      <div class="project-tag-row">
-        <span class="project-tag">CVPR 2026</span>
-        <span class="project-tag">Multimodal Learning</span>
-        <span class="project-tag">Human Understanding</span>
-      </div>
-      <h2 class="project-title">M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction</h2>
+      <h2 class="project-title">Multi-Level Situation Awareness for Safe and Efficient Multi-agent Collaboration in Smart Manufacturing</h2>
       <p class="project-summary">
-        A benchmark-oriented project for multimodal human mesh reconstruction, centered on mmWave radar sensing and large-scale data curation.
-        The project supports robust 3D human understanding when purely visual sensing is limited by lighting, occlusion, or viewpoint changes.
+      In collaboration with Delta Electronics Inc. This project aims to develop solutions for autonomous robot planning in multi-level buildings and dense human crowds. The autonomous algorithm has been successfully tested in HDB buildings near Commonwealth, Singapore.
       </p>
-
       <div class="project-links">
-        <a class="project-link details" href="/projects/m4human/">View Details</a>
-        <a class="project-link publication" href="https://arxiv.org/abs/2512.12378">Paper</a>
-        <a class="project-link code" href="https://github.com/FanJunqiao/M4Human">Code</a>
-        <a class="project-link website" href="https://fanjunqiao.github.io/M4Human-site/">Website</a>
+        <a class="project-link details" href="/projects/delta/">View Details</a>
       </div>
     </div>
   </article>
 
-  <article class="project-card" id="uloc">
+  <article class="project-card" id="htx​">
     <div class="project-media">
-      <img src="/images/projects/uloc.svg" alt="Illustration for the ULoc project" loading="lazy">
+      <img src="/images/projects/htx.gif" alt="Illustration for the ULoc project" loading="lazy">
     </div>
 
     <div class="project-content">
-      <div class="project-tag-row">
-        <span class="project-tag">ICRA 2025</span>
-        <span class="project-tag">UWB</span>
-        <span class="project-tag">Large-Scale Environments</span>
-      </div>
-      <h2 class="project-title">ULoc: Learning to Localize in Complex Large-Scale Environments with Ultra-Wideband Ranges</h2>
+      <h2 class="project-title">Development of Embodied AI Language-Based Navigation System</h2>
       <p class="project-summary">
         A learning-based localization project for complex large-scale environments, using ultra-wideband range measurements as a key sensing signal.
         The core goal is to make localization more reliable when map scale, environment complexity, and sensing uncertainty increase.
       </p>
 
       <div class="project-links">
-        <a class="project-link details" href="/projects/uloc/">View Details</a>
-        <a class="project-link publication" href="https://arxiv.org/abs/2409.11122">Paper</a>
-        <a class="project-link code" href="https://github.com/brytsknguyen/uloc">Code</a>
+        <a class="project-link details" href="/projects/htx/">View Details</a>
       </div>
     </div>
   </article>
 
-  <article class="project-card" id="crowd-nav">
-    <div class="project-media">
-      <img src="/images/projects/crowd-nav.svg" alt="Illustration for crowd navigation research" loading="lazy">
-    </div>
-
-    <div class="project-content">
-      <div class="project-tag-row">
-        <span class="project-tag">ICRA 2025</span>
-        <span class="project-tag">RA-L 2025</span>
-        <span class="project-tag">Trajectory Planning</span>
-      </div>
-      <h2 class="project-title">Crowd-Aware Robot Navigation and Spatial-Temporal Planning</h2>
-      <p class="project-summary">
-        A line of work on safe and efficient robot navigation in human crowds, including dynamic weight adjustment for trajectory planning
-        and navigation policies that use surrounding pedestrian behavior as a planning cue.
-      </p>
-
-      <div class="project-links">
-        <a class="project-link details" href="/projects/crowd-navigation/">View Details</a>
-        <a class="project-link publication" href="https://arxiv.org/abs/2412.00555">Trajectory Planning</a>
-        <a class="project-link publication" href="https://arxiv.org/abs/2504.10828">People-as-Planners</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="project-card" id="anti-uav">
-    <div class="project-media">
-      <img src="/images/projects/anti-uav.svg" alt="Illustration for anti-UAV perception research" loading="lazy">
-    </div>
-
-    <div class="project-content">
-      <div class="project-tag-row">
-        <span class="project-tag">ICRA 2024</span>
-        <span class="project-tag">Dataset</span>
-        <span class="project-tag">Threat Identification</span>
-      </div>
-      <h2 class="project-title">Multimodal Anti-UAV Perception and Audio-Visual Threat Identification</h2>
-      <p class="project-summary">
-        A broader research direction on anti-UAV perception, combining dataset construction, multimodal sensing, and audio-visual fusion for drone threat analysis.
-        This direction includes both benchmark development and system-level identification pipelines.
-      </p>
-
-      <div class="project-links">
-        <a class="project-link details" href="/projects/anti-uav/">View Details</a>
-        <a class="project-link publication" href="https://arxiv.org/abs/2402.03706">MMAUD Paper</a>
-        <a class="project-link code" href="https://github.com/ntu-aris/MMAUD">MMAUD Code</a>
-        <a class="project-link publication" href="https://www.sciencedirect.com/science/article/pii/S2949855424000285">AV-FDTI Paper</a>
-        <a class="project-link code" href="https://github.com/yizhuoyang/AV-FDTI/">AV-FDTI Code</a>
-      </div>
-    </div>
-  </article>
-
-  <article class="project-card" id="av-pedaware">
-    <div class="project-media">
-      <img src="/images/projects/av-pedaware.svg" alt="Illustration for the AV-PedAware project" loading="lazy">
-    </div>
-
-    <div class="project-content">
-      <div class="project-tag-row">
-        <span class="project-tag">IROS 2024</span>
-        <span class="project-tag">Self-Supervised Learning</span>
-        <span class="project-tag">Pedestrian Awareness</span>
-      </div>
-      <h2 class="project-title">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</h2>
-      <p class="project-summary">
-        A project on self-supervised audio-visual fusion for improving pedestrian awareness in dynamic environments.
-        The work explores how complementary sensing can strengthen robot perception when visual cues alone are unstable or incomplete.
-      </p>
-
-      <div class="project-links">
-        <a class="project-link details" href="/projects/av-pedaware/">View Details</a>
-        <a class="project-link publication" href="https://arxiv.org/abs/2411.06789">Paper</a>
-        <a class="project-link code" href="https://github.com/yizhuoyang/AV-PedAware">Code</a>
-      </div>
-    </div>
-  </article>
 </section>

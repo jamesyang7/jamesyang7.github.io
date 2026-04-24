@@ -73,12 +73,6 @@ author_profile: true
   box-shadow: 0 8px 20px rgba(9, 25, 40, 0.14);
 }
 
-.pub-hero-link.secondary {
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: #fff !important;
-}
-
 .pub-note {
   margin-top: 16px;
   margin-bottom: 1.8rem;
@@ -222,12 +216,6 @@ author_profile: true
   color: #1c668e !important;
 }
 
-.pub-btn.project {
-  background: #fff5eb;
-  border-color: #f1ddbd;
-  color: #9f6526 !important;
-}
-
 .pub-btn.video {
   background: #f9eff6;
   border-color: #efd5e5;
@@ -260,7 +248,7 @@ author_profile: true
   <div class="pub-hero-kicker">Research Output</div>
   <p>
     Selected papers in multimodal robot perception, audio-visual fusion, embodied navigation, and autonomous systems,
-    with links to papers, code repositories, and project pages when available.
+    with links to papers, code repositories, and websites when available.
   </p>
 
   <div class="pub-topics">
@@ -272,7 +260,6 @@ author_profile: true
 
   <div class="pub-hero-actions">
     <a class="pub-hero-link primary" href="https://scholar.google.com/citations?user=d2aOcXsAAAAJ&hl=zh-CN">View Google Scholar</a>
-    <a class="pub-hero-link secondary" href="/projects/">View Projects</a>
   </div>
 </div>
 
@@ -314,7 +301,6 @@ author_profile: true
         <a class="pub-btn paper" href="https://arxiv.org/abs/2512.12378">Paper</a>
         <a class="pub-btn code" href="https://github.com/FanJunqiao/M4Human">Code</a>
         <a class="pub-btn website" href="https://fanjunqiao.github.io/M4Human-site/">Website</a>
-        <a class="pub-btn project" href="/projects/m4human/">Project</a>
       </div>
     </article>
 
@@ -351,7 +337,7 @@ author_profile: true
       </div>
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2412.00555">Paper</a>
-        <a class="pub-btn project" href="/projects/crowd-navigation/">Project</a>
+        <a class="pub-btn video" href="https://www.youtube.com/watch?v=nSCbNaaF_VM">Video</a>
       </div>
     </article>
 
@@ -369,7 +355,6 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2409.11122">Paper</a>
         <a class="pub-btn code" href="https://github.com/brytsknguyen/uloc">Code</a>
-        <a class="pub-btn project" href="/projects/uloc/">Project</a>
       </div>
     </article>
 
@@ -385,7 +370,6 @@ author_profile: true
       </div>
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2504.10828">Paper</a>
-        <a class="pub-btn project" href="/projects/crowd-navigation/">Project</a>
       </div>
     </article>
 
@@ -438,7 +422,6 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2402.03706">Paper</a>
         <a class="pub-btn code" href="https://github.com/ntu-aris/MMAUD">Code</a>
-        <a class="pub-btn project" href="/projects/anti-uav/">Project</a>
       </div>
     </article>
 
@@ -469,7 +452,6 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://www.sciencedirect.com/science/article/pii/S2949855424000285">Paper</a>
         <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-FDTI/">Code</a>
-        <a class="pub-btn project" href="/projects/anti-uav/">Project</a>
       </div>
     </article>
 
@@ -539,7 +521,6 @@ author_profile: true
       <div class="pub-links">
         <a class="pub-btn paper" href="https://arxiv.org/abs/2411.06789">Paper</a>
         <a class="pub-btn code" href="https://github.com/yizhuoyang/AV-PedAware">Code</a>
-        <a class="pub-btn project" href="/projects/av-pedaware/">Project</a>
       </div>
     </article>
   </div>
