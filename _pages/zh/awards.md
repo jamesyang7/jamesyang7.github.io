@@ -30,9 +30,9 @@ translation_url: /awards/
       <span class="award-tag">重要奖学金</span>
     </div>
     <div class="award-title">国家奖学金</div>
-    <div class="award-desc">
+    <!-- <div class="award-desc">
       因本科期间优异的学业成绩与综合表现获得表彰。
-    </div>
+    </div> -->
   </article>
 
   <article class="award-card">
@@ -41,9 +41,9 @@ translation_url: /awards/
       <span class="award-tag">优秀奖学金</span>
     </div>
     <div class="award-title">优秀学生奖学金（三次）</div>
-    <div class="award-desc">
+    <!-- <div class="award-desc">
       因持续稳定的学术表现、学习投入与综合能力，多次获得奖学金。
-    </div>
+    </div> -->
   </article>
 
   <article class="award-card">
@@ -52,9 +52,9 @@ translation_url: /awards/
       <span class="award-tag">毕业荣誉</span>
     </div>
     <div class="award-title">优秀毕业生</div>
-    <div class="award-desc">
+    <!-- <div class="award-desc">
       本科毕业时因突出的学业成绩与综合表现获得表彰。
-    </div>
+    </div> -->
   </article>
 
   <article class="award-card">
@@ -63,8 +63,8 @@ translation_url: /awards/
       <span class="award-tag">学术成果</span>
     </div>
     <div class="award-title">优秀本科毕业论文</div>
-    <div class="award-desc">
+    <!-- <div class="award-desc">
       因本科毕业论文工作质量突出而获得奖励。
-    </div>
+    </div> -->
   </article>
 </div>

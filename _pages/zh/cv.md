@@ -117,19 +117,19 @@ translation_url: /cv/
       <div class="cv-note-list">
         <div class="cv-note-item">
           <div class="cv-item-title">国家奖学金</div>
-          <div class="cv-item-subtitle">因优异的学业表现与综合能力获得奖励。</div>
+          <!-- <div class="cv-item-subtitle">因优异的学业表现与综合能力获得奖励。</div> -->
         </div>
         <div class="cv-note-item">
           <div class="cv-item-title">优秀学生奖学金（三次）</div>
-          <div class="cv-item-subtitle">多次因优良成绩和综合表现获得奖学金。</div>
+          <!-- <div class="cv-item-subtitle">多次因优良成绩和综合表现获得奖学金。</div> -->
         </div>
         <div class="cv-note-item">
           <div class="cv-item-title">优秀毕业生</div>
-          <div class="cv-item-subtitle">本科毕业时因学术表现与综合素质突出获得表彰。</div>
+          <!-- <div class="cv-item-subtitle">本科毕业时因学术表现与综合素质突出获得表彰。</div> -->
         </div>
         <div class="cv-note-item">
           <div class="cv-item-title">优秀本科毕业论文</div>
-          <div class="cv-item-subtitle">因本科毕业论文工作质量突出而获得奖励。</div>
+          <!-- <div class="cv-item-subtitle">因本科毕业论文工作质量突出而获得奖励。</div> -->
         </div>
       </div>
     </section>
