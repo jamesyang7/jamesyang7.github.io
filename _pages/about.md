@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Welcome to My Personal Homepage"
+title: "Yizuho Yang's Homepage"
 permalink: /
 author_profile: true
 lang: en
