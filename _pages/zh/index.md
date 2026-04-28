@@ -81,6 +81,26 @@ translation_url: /
 ## 近期论文
 
 <div class="featured-pub-list">
+
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/ai_ad.png" alt="Visual summary for AV-PedAware" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">Unsupervised anomaly detection for autonomous robots via mahalanobis svdd with audio-imu fusion</h3>
+      <p class="featured-pub-authors"><mark>Y. Yang</mark>, J. Zhao, X. Xu, K. Cao, S. Yuan, L. Xie</p>
+      <div class="featured-pub-note">Under Review</div>
+      <p class="featured-pub-desc">
+       一个无监督的基于声音-IMU融合的移动机器人的异常检测方法
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2505.05811">论文</a>
+        <a class="featured-pub-link" href="https://github.com/jamesyang7/M-SVDD">代码</a>
+      </div>
+    </div>
+  </article>
+
+
   <article class="featured-pub-card">
     <div class="featured-pub-media">
       <img src="/images/projects/av-pedaware.gif" alt="AV-PedAware 可视化摘要" loading="lazy">
