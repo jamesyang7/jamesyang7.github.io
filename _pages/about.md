@@ -11,7 +11,7 @@ translation_url: /zh/
 
 I am currently a Ph.D. candidate in the School of Electrical and Electronic Engineering at Nanyang Technological University (NTU), under the supervision of [Prof. Lihua Xie](https://dr.ntu.edu.sg/entities/person/Xie-Lihua/).
 
-Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical Engineering with First Class Honours from both the University of Glasgow (UoG) and the University of Electronic Science and Technology of China (UESTC).
+Prior to joining NTU, I obtained a B.Eng. in Electronics and Electrical Engineering from th University of Electronic Science and Technology of China (UESTC).
 
 ## Research Interests
 - Multimodal robot perception
@@ -21,9 +21,9 @@ Prior to joining NTU, I obtained a joint B.Eng. in Electronics and Electrical En
 - Anomaly detection
 
 ## Education
-- **Ph.D. Candidate**, School of Electrical and Electronic Engineering, Nanyang Technological University, 2022-Present
-- **M.Sc.**, School of Electrical and Electronic Engineering, Nanyang Technological University, 2021-2022
-- **B.Eng. (First Class Honours)**, Glasgow College, University of Electronic Science and Technology of China (UESTC), 2017-2021
+- **Ph.D. Candidate**, Nanyang Technological University, 2022-Present
+- **M.Sc.**,  Nanyang Technological University, 2021-2022
+- **B.Eng**, University of Electronic Science and Technology of China (UESTC), 2017-2021
 
 ## News
 

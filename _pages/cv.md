@@ -51,8 +51,8 @@ translation_url: /zh/cv/
 
     <div class="cv-item cv-edu-item">
       <div>
-        <div class="cv-item-title">B.Eng. (First Class Honours) in Electronics and Electrical Engineering</div>
-        <div class="cv-item-subtitle">Glasgow College, University of Electronic Science and Technology of China (UESTC)</div>
+        <div class="cv-item-title">B.Eng in Electronics and Electrical Engineering</div>
+        <div class="cv-item-subtitle"> University of Electronic Science and Technology of China (UESTC)</div>
       </div>
       <div class="cv-item-meta">2017 - 2021</div>
     </div>

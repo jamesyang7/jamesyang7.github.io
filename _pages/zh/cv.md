@@ -51,8 +51,8 @@ translation_url: /cv/
 
     <div class="cv-item cv-edu-item">
       <div>
-        <div class="cv-item-title">电子与电气工程学士（一等荣誉）</div>
-        <div class="cv-item-subtitle">电子科技大学格拉斯哥学院</div>
+        <div class="cv-item-title">电子与电气工程学士</div>
+        <div class="cv-item-subtitle">电子科技大学</div>
       </div>
       <div class="cv-item-meta">2017 - 2021</div>
     </div>
