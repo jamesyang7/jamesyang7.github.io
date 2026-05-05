@@ -11,7 +11,7 @@ translation_url: /
 
 我目前是南洋理工大学（NTU）电子与电气工程学院博士生，导师为 [Prof. Lihua Xie](https://dr.ntu.edu.sg/entities/person/Xie-Lihua/)。
 
-在加入 NTU 之前，我于英电子科技大学（UESTC获得电子与电气工程学士学位。
+在加入 NTU 之前，我于电子科技大学（UESTC获得电子与电气工程学士学位）。
 
 ## 研究方向
 - 多模态机器人感知
@@ -108,7 +108,7 @@ translation_url: /
     <div class="featured-pub-body">
       <h3 class="featured-pub-title">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</h3>
       <p class="featured-pub-authors"><mark>Y. Yang</mark>, S. Yuan, M. Cao, J. Yang, L. Xie</p>
-      <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
+      <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023</div>
       <p class="featured-pub-desc">
         一篇面向动态行人感知的自监督音视频融合论文，与具身导航和安全自主系统密切相关。
       </p>

@@ -109,7 +109,7 @@ Prior to joining NTU, I obtained a B.Eng. in Electronics and Electrical Engineer
     <div class="featured-pub-body">
       <h3 class="featured-pub-title">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</h3>
       <p class="featured-pub-authors"><mark>Y. Yang</mark>, S. Yuan, M. Cao, J. Yang, L. Xie</p>
-      <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024</div>
+      <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023</div>
       <p class="featured-pub-desc">
         A self-supervised audio-visual fusion paper for stronger pedestrian awareness in dynamic scenes, with direct relevance to embodied navigation and safe autonomy.
       </p>
