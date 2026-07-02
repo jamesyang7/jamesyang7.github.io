@@ -89,6 +89,10 @@ translation_url: /zh/cv/
     <div class="cv-section-title">Selected Publications</div>
     <ul class="cv-publication-list">
       <li>
+        <a href="https://arxiv.org/abs/2606.18664" target="_blank" rel="noopener noreferrer">NeuralMUSIC: A Hybrid Neural-Subspace Framework for Robot Sound Source Localization</a>
+        <span class="cv-publication-venue">IROS 2026</span>
+      </li>
+      <li>
         <a href="https://arxiv.org/abs/2411.06789" target="_blank" rel="noopener noreferrer">AV-PedAware: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness</a>
         <span class="cv-publication-venue">IROS 2023</span>
       </li>
