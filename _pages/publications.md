@@ -38,6 +38,23 @@ translation_url: /zh/publications/
   <div class="pub-year">2026</div>
   <div class="pub-grid">
     <article class="pub-card">
+      <div class="pub-badge">First Author</div>
+      <div class="pub-title">
+        NeuralMUSIC: A Hybrid Neural-Subspace Framework for Robot Sound Source Localization
+      </div>
+      <div class="pub-authors">
+        <strong>Y. Yang</strong>, J. Fan, S. Yuan, L. Xie
+      </div>
+      <div class="pub-venue">
+        IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026
+      </div>
+      <div class="pub-links">
+        <a class="pub-btn paper" href="https://arxiv.org/abs/2606.18664">Paper</a>
+        <a class="pub-btn code" href="https://github.com/yizhuoyang/NeuralMUSIC">Code</a>
+      </div>
+    </article>
+
+    <article class="pub-card">
       <div class="pub-title">
         AV-DTEC: Self-Supervised Audio-Visual Fusion for Drone 3D Trajectory Estimation and Classification
       </div>

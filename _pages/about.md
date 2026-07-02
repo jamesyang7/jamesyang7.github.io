@@ -1,4 +1,4 @@
----
+﻿---
 layout: archive
 title: "Yizuho Yang's Homepage"
 permalink: /
@@ -28,6 +28,13 @@ Prior to joining NTU, I obtained a B.Eng. in Electronics and Electrical Engineer
 ## News
 
 <div class="news-scroll-box">
+  <div class="news-item">
+    <div class="news-date">2026/06</div>
+    <div class="news-content">
+      Our paper <a href="https://arxiv.org/abs/2606.18664"><strong>NeuralMUSIC</strong></a> was accepted to <em>IROS 2026</em>.
+    </div>
+  </div>
+
   <div class="news-item">
     <div class="news-date">2026/02</div>
     <div class="news-content">
@@ -82,6 +89,23 @@ Prior to joining NTU, I obtained a B.Eng. in Electronics and Electrical Engineer
 ## Recent Papers
 
 <div class="featured-pub-list">
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/neuralmusic.png" alt="Visual summary for NeuralMUSIC" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">NeuralMUSIC: A Hybrid Neural-Subspace Framework for Robot Sound Source Localization</h3>
+      <p class="featured-pub-authors"><mark>Y. Yang</mark>, J. Fan, S. Yuan, L. Xie</p>
+      <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
+      <p class="featured-pub-desc">
+        A hybrid robot sound source localization framework that combines classical subspace methods with neural models for stronger auditory perception.
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2606.18664">Paper</a>
+        <a class="featured-pub-link" href="https://github.com/yizhuoyang/NeuralMUSIC">Code</a>
+      </div>
+    </div>
+  </article>
 
   <article class="featured-pub-card">
     <div class="featured-pub-media">
@@ -100,7 +124,6 @@ Prior to joining NTU, I obtained a B.Eng. in Electronics and Electrical Engineer
       </div>
     </div>
   </article>
-
 
   <article class="featured-pub-card">
     <div class="featured-pub-media">
@@ -138,7 +161,6 @@ Prior to joining NTU, I obtained a B.Eng. in Electronics and Electrical Engineer
     </div>
   </article>
 
-
   <article class="featured-pub-card">
     <div class="featured-pub-media">
       <img src="/images/projects/mmaud.png" alt="Visual summary for MMAUD" loading="lazy">
@@ -175,28 +197,6 @@ Prior to joining NTU, I obtained a B.Eng. in Electronics and Electrical Engineer
     </div>
   </article>
 </div>
-
-<!-- ## Explore
-
-<div class="home-links-grid">
-  <a class="home-link-card" href="/publications/">
-    <span class="home-link-label">Publications</span>
-    <span class="home-link-title">Browse papers, code links, and project pages</span>
-    <span class="home-link-desc">A curated list of conference papers and journal articles in multimodal perception, robot learning, and autonomous systems.</span>
-  </a>
-
-  <a class="home-link-card" href="/projects/">
-    <span class="home-link-label">Projects</span>
-    <span class="home-link-title">See selected systems and research directions</span>
-    <span class="home-link-desc">A project-oriented view of your work, organized around themes like localization, crowd navigation, and multimodal perception.</span>
-  </a>
-
-  <a class="home-link-card" href="/awards/">
-    <span class="home-link-label">Awards</span>
-    <span class="home-link-title">See scholarships and academic honors</span>
-    <span class="home-link-desc">A concise overview of undergraduate distinctions, graduation honors, and merit-based recognitions.</span>
-  </a>
-</div> -->
 
 ## Contact
 Email: [yizhuo001@e.ntu.edu.sg](mailto:yizhuo001@e.ntu.edu.sg)

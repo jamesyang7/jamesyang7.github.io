@@ -28,6 +28,14 @@ translation_url: /
 ## 新闻
 
 <div class="news-scroll-box">
+
+  <div class="news-item">
+    <div class="news-date">2026/06</div>
+    <div class="news-content">
+      论文 <a href="https://arxiv.org/abs/2606.18664"><strong>NeuralMUSIC</strong></a> 被 <em>IROS 2026</em> 接收。
+    </div>
+  </div>
+
   <div class="news-item">
     <div class="news-date">2026/02</div>
     <div class="news-content">
@@ -84,7 +92,26 @@ translation_url: /
 
   <article class="featured-pub-card">
     <div class="featured-pub-media">
-      <img src="/images/projects/ai_ad.png" alt="Visual summary for AV-PedAware" loading="lazy">
+      <img src="/images/projects/neuralmusic.png" alt="Visual summary for NeuralMUSIC" loading="lazy">
+    </div>
+    <div class="featured-pub-body">
+      <h3 class="featured-pub-title">NeuralMUSIC: A Hybrid Neural-Subspace Framework for Robot Sound Source Localization</h3>
+      <p class="featured-pub-authors"><mark>Y. Yang</mark>, J. Fan, S. Yuan, L. Xie</p>
+      <div class="featured-pub-note">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
+      <p class="featured-pub-desc">
+        一个将传统子空间方法与神经网络结合的机器人声源定位框架。
+      </p>
+      <div class="featured-pub-links">
+        <a class="featured-pub-link" href="https://arxiv.org/abs/2606.18664">论文</a>
+        <a class="featured-pub-link" href="https://github.com/yizhuoyang/NeuralMUSIC">代码</a>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="featured-pub-card">
+    <div class="featured-pub-media">
+      <img src="/images/projects/ai_ad.png" alt="Visual summary for MSVDD" loading="lazy">
     </div>
     <div class="featured-pub-body">
       <h3 class="featured-pub-title">Unsupervised anomaly detection for autonomous robots via mahalanobis svdd with audio-imu fusion</h3>
